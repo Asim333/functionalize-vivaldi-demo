@@ -46,3 +46,11 @@ function seasonSelectChanged() {
     document.body.style.backgroundColor = "#1C64B9";
   }
 }
+ 
+function setSpring(){
+  seasonH2.innerHTML = "spring";
+  seasonH2.style.color = "#0E94D1";
+  seasonImg.src = "img/spring.jpg";
+  seasonAudio.src = "songs/vivaldi-spring.mp3";
+  document.body.style.backgroundColor = "#0E94D1";
+}
